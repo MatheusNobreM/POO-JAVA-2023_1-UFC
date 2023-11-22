@@ -1,0 +1,50 @@
+Requisitos do Letrexto:
+1. Dicionário de palavras
+OK  1.1. O arquivo com o dicionário deve ser aberto e carregado em memória
+OK  1.2. Usar o arquivo fornecido (br_utf8.txt) que contém apenas palavras de 5 letras, sem acentos e sem cedilha (trocado por ‘c’)
+
+2. Inicialização do jogo
+OK  2.1. Uma palavra deve ser escolhida aleatoriamente a cada jogada
+OK  2.2. A semente aleatória deve ser baseada no horário do sistema
+OK  2.3. A interação com a jogadora deve ser o mais próximo possível do exemplo de interação abaixo.
+
+3. Palpites
+3.1. Vitória quando a jogadora acerta a palavra
+OK 3.2. Derrota após o 6º palpite errado
+3.3. Devem ser permitidos palpites apenas de palavras existentes no dicionário
+3.4. A cada palpite, a jogadora é informada sobre os acertos, acertos parciais ou erros, conforme o exemplo de interação
+
+4. Design interno
+4.1. Aplique da melhor forma possível os conceitos de OO praticados durante a disciplina
+4.2. Escolha os nomes de classes, objetos, atributos, variáveis etc que ajudem a compreender o código e que tenha relação com os requisitos
+4.3. Não é necessário preparar um Runner ou código de testes, mas você deve testar bastante seu jogo
+
+==============================================================
+-IMPLEMENTAR
+  |
+  |->MÉTODO impressaoResposta()
+  |->MÉTODO para autorizar a tentativa
+  |->Uma lista para guardar as tentativas (FALTA RESPOSTA DO CAMILO)
+
+==============================================================
+
+Vamos começar!
+
+Digite palpite #1: torta
+Palpite:
+ t o r t a
+Resultado: - * * * *
+Digite palpite #2: muito
+Palpite:
+ m u i t o
+Resultado: * - - - *
+Digite palpite #3: futil
+Palpite:
+ f u t i l
+Resultado: * - - + *
+Digite palpite #4: uteis
+Palpite:
+ u t e i s
+Resultado: + + + + +
+Parabéns! Você adivinhou a palavra "uteis" corretamente!
+Obrigado por jogar Letrexto!
